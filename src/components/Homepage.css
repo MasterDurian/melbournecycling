@@ -1,0 +1,65 @@
+.homepage {
+    padding: 20px;
+    font-family: 'Arial, sans-serif';
+}
+
+.homepage-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.homepage-header h1 {
+    font-size: 3em;
+    color: black;
+}
+
+.homepage-header span {
+    color: red;
+}
+
+.popular-pages {
+    text-align: center;
+}
+
+.popular-pages h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.page-cards {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.page-card {
+    width: 300px;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.page-card img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.page-card h3 {
+    font-size: 1.5em;
+    margin: 10px 0;
+}
+
+.page-card p {
+    font-size: 1em;
+    color: #333;
+}
+
+.page-card strong {
+    display: block;
+    margin-top: 10px;
+    font-size: 0.9em;
+    color: #666;
+}

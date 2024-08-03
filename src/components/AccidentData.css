@@ -1,0 +1,10 @@
+.accident-data-container {
+    padding: 20px;
+}
+
+.map-wrapper {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    position: relative;
+}

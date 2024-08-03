@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+}
+
+header img {
+    height: 50px;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li {
+    display: inline;
+}
+
+header nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 20px;
+}
+
+.hero-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    background-color: #f0f0f0;
+    padding: 50px 20px;
+}
+
+.hero-section h1 {
+    color: #ff5733;
+    margin: 0;
+}
+
+.hero-section p {
+    font-size: 1.2em;
+    margin: 10px 0 20px;
+}
+
+.popular-pages {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+}
+
+.popular-page {
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+.popular-page img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.popular-page a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.popular-page a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.map-container {
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.accident-data-container {
+    padding: 20px;
+}
+
+.plotly-graph-div {
+    height: calc(100vh - 50px);
+    /* Adjust based on navbar height */
+    width: 100%;
+}
