@@ -1,20 +1,38 @@
+/* 导入 Google Fonts 在HTML中已经完成 */
+
 .homepage {
-    padding: 20px;
-    font-family: 'Arial, sans-serif';
+    padding: 40px;
+    font-family: 'Roboto', Arial, sans-serif; /* 修改为新字体 */
+    background-color: #f6efef; 
 }
 
 .homepage-header {
-    text-align: center;
     margin-bottom: 50px;
+    padding-left: 100px;
 }
 
-.homepage-header h1 {
-    font-size: 3em;
+.header-content {
+    display: flex;
+    align-items: center; /* 垂直居中对齐 */
+}
+
+.header-content h1 {
+    font-size: 4em;
     color: black;
+    font-family: 'Roboto', Arial, sans-serif;
+    line-height: 1.5; /* 设置行高 */
+    font-weight: bold; /* 设置字体加粗 */
+    margin-top: 20px; /* 设置与上边框的距离 */
 }
 
-.homepage-header span {
+.header-content span {
     color: red;
+    font-weight: bold; /* 设置span内文字加粗 */
+}
+
+.header-image {
+    max-width: 650px; /* 限制图片的最大宽度 */
+    margin-left: 200px; /* 添加左边距以分隔文本和图片 */
 }
 
 .popular-pages {
@@ -22,39 +40,67 @@
 }
 
 .popular-pages h2 {
-    font-size: 2em;
+    font-size: 1.1em;
     margin-bottom: 20px;
+    color: rgb(64, 60, 60);
+    text-align: left;
+    padding-left: 100px;
+    font-family: 'Roboto', Arial, sans-serif; /* 修改为新字体 */
 }
 
 .page-cards {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 20px; /* 添加上边距 */
 }
 
 .page-card {
-    width: 300px;
+    width: 500px;
     margin: 10px;
     padding: 20px;
     border: 1px solid #ddd;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     text-align: left;
+    font-family: 'Roboto', Arial, sans-serif; /* 修改为新字体 */
 }
 
 .page-card img {
     width: 100%;
     border-radius: 10px;
+    margin-bottom: 10px; /* 添加底边距 */
 }
 
 .page-card h3 {
     font-size: 1.5em;
     margin: 10px 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    position: relative; /* 为::after设置定位 */
+}
+
+.card-button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: white;
+    background-color: #9a9898;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-family: 'Roboto', Arial, sans-serif; /* 修改为新字体 */
+}
+
+.card-button:hover {
+    background-color: #555;
 }
 
 .page-card p {
     font-size: 1em;
     color: #333;
+    font-family: 'Roboto', Arial, sans-serif;
 }
 
 .page-card strong {
@@ -62,4 +108,6 @@
     margin-top: 10px;
     font-size: 0.9em;
     color: #666;
+    font-family: 'Roboto', Arial, sans-serif; /* 修改为新字体 */
 }
+
