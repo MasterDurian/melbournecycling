@@ -1,0 +1,18 @@
+{
+  "resourceName": "s3ed575105",
+  "policyUUID": "ed575105",
+  "bucketName": "melbournecyclingd5c933e62dbe4f748dd4f4b6f33d8b1",
+  "storageAccess": "authAndGuest",
+  "guestAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "authAccess": [
+    "CREATE_AND_UPDATE",
+    "READ",
+    "DELETE"
+  ],
+  "triggerFunction": "NONE",
+  "groupAccess": {}
+}
