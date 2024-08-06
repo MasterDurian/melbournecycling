@@ -9,7 +9,7 @@ const ChoroplethMap = () => {
 
     useEffect(() => {
         // Fetch GeoJSON data
-        axios.get('http://localhost:5003/api/geojson')
+        axios.get('http://ec2-100-25-223-65.compute-1.amazonaws.com:5003/api/geojson')
             .then(response => {
                 console.log('Fetched GeoJSON data:', response.data);
                 setGeoJsonData(response.data);
