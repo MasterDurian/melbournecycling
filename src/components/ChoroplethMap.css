@@ -98,3 +98,35 @@ body {
     color: black;
     box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.2);
 }
+
+/* Style for the legend */
+.legend {
+    width: 100%;
+    max-width: 1200px;
+    margin-top: 20px;
+}
+
+.legend h4 {
+    margin-bottom: 10px;
+}
+
+.legend-content {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.legend-box {
+    display: flex;
+    justify-content: ;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+    border: 1px solid #000;
+}
+
+.text-desc {
+    color: #000;
+    font-weight: 500;
+    font-family: 'Helvetica', 'Times New Roman', Times, serif;
+}

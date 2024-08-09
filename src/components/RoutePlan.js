@@ -10,7 +10,7 @@ const RoutePlan = () => {
   useEffect(() => {
     const fetchRoutes = async () => {
       try {
-        const response = await axios.get('https://raw.githubusercontent.com/MasterDurian/melbournecycling/main/public/route.csv'); // 确保路径是根目录的相对路径
+        const response = await axios.get('https://melbournecyclingd5c933e62dbe4f748dd4f4b6f33d8b1d6a90-dev.s3.amazonaws.com/route.csv'); // 确保路径是根目录的相对路径
         Papa.parse(response.data, {
           header: true,
           complete: (results) => {
