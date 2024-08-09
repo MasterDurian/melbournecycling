@@ -10,8 +10,7 @@ function AccidentData() {
             <div className="main-content">
                 <ChoroplethMap />
                 <div className="charts">
-                    <Chart title="Risk Assessment Of Bicycle Routes" />
-                    <Chart title="Description" />
+                    
                 </div>
             </div>
         </div>
